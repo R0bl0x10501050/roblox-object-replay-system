@@ -1,0 +1,7 @@
+ThePhantomReplay - Version 1 - Documentation
+
+[function] Register([Instance] object)
+  >>> Adds an object to the replay that will be recorded, before it's recorded. IT WILL ONLY TAKE INSTANCES.
+  
+[function] Record([string] name)
+  >>> Starts recording every movement of the registered objects. Requires a name to be provided for the replay.
