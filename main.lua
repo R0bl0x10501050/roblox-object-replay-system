@@ -1,7 +1,7 @@
-ThePhantomReplay
-Version 1
+-- ThePhantomReplay
+-- Version 1
 
-SOURCE CODE
+-- SOURCE CODE
 
 -- // Globals
 local TIME_PASSED = 0; -- Time passed since recording started
