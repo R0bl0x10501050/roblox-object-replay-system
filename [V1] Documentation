@@ -1,7 +1,19 @@
-ThePhantomReplay - Version 1 - Documentation
+ThePhantomReplay
+Version 1
 
-[function] Register([Instance] object)
+DOCUMENTATION
+
+[function] Register([Instance] Object) -> returns nil
   >>> Adds an object to the replay that will be recorded, before it's recorded. IT WILL ONLY TAKE INSTANCES.
   
-[function] Record([string] name)
+[function] Unregister([Instance] Object) -> returns nil
+  >>> Removes an object from the replay that will be recorded, before it's recorded. IT WILL ONLY TAKE INSTANCES.
+  
+[function] Record([string] Name) -> returns nil
   >>> Starts recording every movement of the registered objects. Requires a name to be provided for the replay.
+
+[function] Stop(nil) -> returns nil
+  >>> Stops recording, and saves the frames of each registered object to the system cashe.
+  
+[function] Replay([string] Name, [string] ReplayType) -> returns nil
+  >>> Replays the replay selected by its Name. Requires a ReplayType.
