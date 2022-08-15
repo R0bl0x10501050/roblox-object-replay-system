@@ -5,7 +5,9 @@ TUTORIAL
 
 MODULE ID - 10605326798
 
--- first, require the module
+-- Create a folder in workspace, called "ThePhantomReplay"
+
+-- require the module
 local ThePhantomReplay = require(10605326798)
 
 -- from there, register all the parts you want to be recorded.
